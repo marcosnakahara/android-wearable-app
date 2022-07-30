@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.60"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
